@@ -1,0 +1,9 @@
+const ON_CHECKEDIN_UPDATE = "ON_CHECKEDIN_UPDATE";
+
+const ACTION_ON_CHECKEDIN_UPDATE = () => {
+  return {
+    type: ON_CHECKEDIN_UPDATE,
+  };
+};
+
+export default ACTION_ON_CHECKEDIN_UPDATE;
